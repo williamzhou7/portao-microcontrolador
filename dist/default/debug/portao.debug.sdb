@@ -1,0 +1,298 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"72 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao/configura.h
+[v _config config `(v  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"42 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\comunica.c
+[v _main main `(v  1 e 1 0 ]
+"128
+[v _tmr tmr `IIH(v  1 e 1 0 ]
+"204
+[v _escreve escreve `(v  1 e 1 0 ]
+"216
+[v _envia envia `(v  1 e 1 0 ]
+"224
+[v _trata trata `(v  1 e 1 0 ]
+"38 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\lcd.c
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+[v i2_lcd_write lcd_write `(v  1 e 1 0 ]
+"52
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+[v i2_lcd_clear lcd_clear `(v  1 e 1 0 ]
+"62
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+[v i2_lcd_puts lcd_puts `(v  1 e 1 0 ]
+"84
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+"92
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+[v i2_lcd_init lcd_init `(v  1 e 1 0 ]
+"271 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4520.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S68 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"315
+[s S77 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S86 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S95 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S97 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S100 . 1 `S68 1 . 1 0 `S77 1 . 1 0 `S86 1 . 1 0 `S95 1 . 1 0 `S97 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES100  1 e 1 @3969 ]
+[s S139 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"497
+[s S148 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S157 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S166 . 1 `uc 1 T1CKI 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+]
+[s S170 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S174 . 1 `S139 1 . 1 0 `S148 1 . 1 0 `S157 1 . 1 0 `S166 1 . 1 0 `S170 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES174  1 e 1 @3970 ]
+"632
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"774
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"1477
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1699
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2365
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"3110
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3320
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3576
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3588
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3600
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4221
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"4619
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4690
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4775
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"4901
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4908
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"6085
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"6168
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6251
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"6692
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"7426
+[v _GODONE GODONE `VEb  1 e 0 @32273 ]
+"7546
+[v _IPEN IPEN `VEb  1 e 0 @32391 ]
+"7777
+[v _LE0 LE0 `VEb  1 e 0 @31848 ]
+"7780
+[v _LE1 LE1 `VEb  1 e 0 @31849 ]
+"8176
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"8497
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"8731
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"27 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\comunica.c
+[v _volts volts `f  1 e 4 0 ]
+"28
+[v _contador contador `i  1 e 2 0 ]
+[v _bits bits `i  1 e 2 0 ]
+[v _j j `i  1 e 2 0 ]
+"29
+[v _valor valor `[5]uc  1 e 5 0 ]
+[v _bts bts `[6]uc  1 e 6 0 ]
+[v _rec rec `[3]uc  1 e 3 0 ]
+"30
+[v _recep recep `b  1 e 0 0 ]
+"42
+[v _main main `(v  1 e 1 0 ]
+{
+"126
+} 0
+"62 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\lcd.c
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@s s `*.35Cuc  1 p 2 15 ]
+"67
+} 0
+"92
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"118
+} 0
+"52
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"57
+} 0
+"38
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v lcd_write@c c `uc  1 a 1 wreg ]
+[v lcd_write@c c `uc  1 a 1 wreg ]
+"40
+[v lcd_write@c c `uc  1 a 1 14 ]
+"45
+} 0
+"216 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\comunica.c
+[v _envia envia `(v  1 e 1 0 ]
+{
+"222
+} 0
+"72 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao/configura.h
+[v _config config `(v  1 e 1 0 ]
+{
+"93
+} 0
+"128 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\comunica.c
+[v _tmr tmr `IIH(v  1 e 1 0 ]
+{
+"188
+} 0
+"92 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\lcd.c
+[v i2_lcd_init lcd_init `(v  1 e 1 0 ]
+{
+[v i2lcd_init@init_value lcd_init `uc  1 a 1 3 ]
+"118
+} 0
+"224 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\comunica.c
+[v _trata trata `(v  1 e 1 0 ]
+{
+[v trata@a a `uc  1 a 1 wreg ]
+[v trata@a a `uc  1 a 1 wreg ]
+"226
+[v trata@a a `uc  1 a 1 3 ]
+"238
+} 0
+"204
+[v _escreve escreve `(v  1 e 1 0 ]
+{
+"214
+} 0
+"62 C:\Users\Joao Brito\Documents\IFSP - Engenharia da Computaria\6º Semestre\microcontrolador\projetos\portao\lcd.c
+[v i2_lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v i2lcd_puts@s s `*.35Cuc  1 p 2 1 ]
+"67
+} 0
+"52
+[v i2_lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"57
+} 0
+"84
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+{
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+"86
+[v lcd_goto@pos pos `uc  1 a 1 1 ]
+"88
+} 0
+"38
+[v i2_lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v i2lcd_write@c c `uc  1 a 1 wreg ]
+[v i2lcd_write@c c `uc  1 a 1 wreg ]
+"40
+[v i2lcd_write@c c `uc  1 a 1 0 ]
+"45
+} 0
